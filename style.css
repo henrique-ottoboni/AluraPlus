@@ -242,5 +242,5 @@ body {
 }
 
 .lista__link a:hover {
-    color: var(--botao-azul);
+    color: red;
 }
