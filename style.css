@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.principal {
+    background-image: url("./img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.container_botao {
+    background-color: var(--botao-azul);
+    border-radius: 8px;
+    padding: 16px;
+    color: var(--branco-principal);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 16px;
+    width: 512px;
+    text-align: center;
+    margin-left: 92px;
+    font-family: 'Inter';
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+
+}
+
+.title_container {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    width: 582px;
+    padding: 125px 798px 22px 54px;
+}
+
+.image_container {
+    padding-left: 178px;
+    padding-bottom: 54px;
+}
+
+.container_aviso {
+    margin-left: 161px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    width: 380px;
+    line-height: 15px;
+    font-family: 'Inter';
+    color: #C0C0C0;
+}
+
+.secundario_imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+}
+
+
+.container_descricao {
+    width: 588px;
+}
+
+.container_descricao_titulo {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: var(--branco-principal);
+    padding-bottom: 8px;
+}
+
+
+.descricao_titulo {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cinza-secundario);
+}
+
+
+.terciario {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 166px;
+
+}
+
+.descricao_combo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.texto_combo {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 588px;
+    padding-bottom: 32px;
+    color: var(--cinza-secundario);
+}
+
+.container_botao_combo {
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 8px;
+    
+}
+
+.imagem_telas_botao {
+    width: 80%;
+}
+
+.quarto {
+    align-items: center;
+    margin-left: 141px;
+    margin-right: 120px;
+    gap: 41px;
+}
+
+.imagem_notebook {
+    width: 100%;
+}
+
+.text_cursos {
+    width: 588px;  
+}
+
+.titulo_text_cursos {
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: var(--branco-principal);
+    padding-bottom: 8px;
+}
+
+.descricao_cursos {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--cinza-secundario);
+}
+
+
+.quinta_section {
+    height: 100vh;
+    padding-top: 264px;
+}
+
+.titulo_dispositivos {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-left: 228px;
+    margin-right: 228px;
+}
+
+.dispositivos_lista {
+    display: flex;
+    flex-direction: row;
+    gap: 69px;
+    list-style-type: none;
+    margin-left: 155px;
+    margin-right: 131px;
+}
+
+.lista_itens {
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--branco-principal);
+    padding-top: 16px;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 24px;
+    font-family: 'Inter';
+}
+
+.lista__link a{
+    text-decoration: none;  
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.rodape__texto {
+    margin: 16px 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
